@@ -1,0 +1,68 @@
+.formcomponent {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+margin-bottom: 30px;
+width: 80%;
+left: 10%;
+
+}
+.formcomponent >div{
+    position: relative;
+    width: 60%;
+    
+   margin: 0%;
+    justify-content: space-around;
+}
+.formcomponent >div:nth-child(1){
+    display: grid;
+
+    grid-template-columns: 45% 45%;
+}
+.formcomponent input{
+    outline: solid rgb(0, 0, 0,0.1);
+    height: 40px;
+  
+    border-radius: 20px;
+    border: none;
+    padding-left: 20px;
+    margin: 0%;
+    margin-bottom: 15px;
+
+}
+
+.formcomponent >div:nth-child(2) input{
+    position: relative;
+   width: 90%;
+}
+.formcomponent input:focus,.formcomponent textarea:focus{
+    outline: 2px #6edcbb;
+   outline-style: solid;
+   outline-width: 2px;
+   box-shadow: 1px 2px 6px #17cf97;
+   
+}
+.formcomponent textarea{
+    max-width:90%;
+    min-width: 90%;
+    min-height: 100px;
+    max-height: auto;
+    border-radius: 20px;
+    border: none;
+    padding-left: 20px;
+    margin-bottom: 6px;
+    padding-top: 20px;
+    outline: solid rgb(0, 0, 0,0.1);
+}
+@media screen and (max-width:769px)  {
+    .formcomponent >div{
+        width: 80%;
+    }
+    .formcomponent >div:nth-child(1){
+        grid-template-columns: 95%;
+    }
+    
+}

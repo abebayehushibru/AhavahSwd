@@ -1,0 +1,122 @@
+.portfolioselection{
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.portfolioselection ul{
+    position: relative;
+display: flex;
+flex-direction: row;
+width: 100%;
+}
+.portfolioselection span{
+    text-decoration: none;
+    height: 40px;
+    width: fit-content;
+    margin-right: 10px;
+    color: #17cf97;
+  padding: 10px 20px; 
+  font-size: 1rem;
+  border: 1px solid;
+  border-color: #17cf97;
+  border-radius: 30px; 
+}
+.portfolioselection span.active,
+.portfolioselection>span:hover{
+    border-color: #17cf97;
+    background: #17cf97;
+    color: white;
+
+}
+.portfolios{
+    position: relative;
+    width: 80%;
+    left: 10%;
+display: grid;
+justify-content: space-evenly;
+
+align-items: center;
+display: flex;
+flex-wrap: wrap;
+overflow: hidden;
+overflow-y: hidden;
+}
+.Items{
+    position: relative;
+    width: 300px;
+    height: 300px;
+ border-radius: 5px;
+display: none;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+border: 1px solid #17cf97;
+margin-bottom: 30px;
+}
+#active{
+    display: flex;
+    transition: all 5s ease;
+}
+.Items img{
+    position: relative;
+    top: 0%;
+    height: 100%;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.Items div{
+    position: absolute;
+   top: 50%;
+   transform: translateY(25%);
+    
+   
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+    background-color: #17cf97;
+    height: 0px;
+    width: 0px;
+    overflow: hidden;
+    transition:all .5s  ease ;
+   
+   
+}
+.Items div a{
+    text-decoration: none;
+    color: white;
+    font-size: 0px;
+    transition:all .5s  ease ;
+}
+.Items img:hover~div,.Items div:hover{
+display: flex;
+top: 0;
+height: 200px;
+width: 200px;
+ }
+ .Items img:hover~div a,.Items div:hover a{
+    font-size: 50px;
+ }
+
+ @media screen and (min-width:930px) {
+    .portfolios{
+        grid-template-columns: 300px 300px 300px ;
+        row-gap: 0;
+    
+    }
+}
+ @media screen and (max-width:920px) {
+    .portfolios{
+        grid-template-columns: 300px 300px ;
+        row-gap:0;
+    
+    }
+}
+@media screen and (max-width:600px) {
+    .portfolios{
+        
+        grid-template-columns: 300px;
+        row-gap: 0;
+    
+    }
+}

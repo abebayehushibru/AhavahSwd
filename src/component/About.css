@@ -1,0 +1,145 @@
+.mainContainer{
+   position: relative;
+   background: #17cf97;
+   display: flex;
+    background: rgb(0, 0, 0);
+    padding:0 20px;
+    width: calc(100% - 40px);
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+.Title{
+    position: relative;
+    display: flex;
+    height: 200px;
+    margin-top: 0px;
+   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.Title h1,.Title h3{
+    position: absolute;
+  
+    display: flex;
+    background: transparent;
+    text-transform: uppercase;
+}
+.Title h1{
+
+    font-size:130px;
+    -webkit-text-stroke: 2px rgb(0, 0, 0,0.2);
+    color: transparent;
+    
+}
+.Title h3{
+    
+    color:#17cf97 ;
+    font-size: 3.0rem;
+  
+}
+.discripion{
+padding: 20px;
+    display: flex;
+  
+    justify-content: space-evenly;
+ 
+
+}
+.discripion img{
+    height: 350px;
+    width: 350px;
+  border-radius: 5px;
+ 
+}
+.discripion  div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 500px;
+}
+.discripion  div h3{
+    font-size: 30px;
+    margin-bottom: 30px ;
+}
+.discripion> div>p{
+    font-size: 16px;
+    color: rgb(0, 0, 0,0.6);
+   margin-bottom: 20px;
+
+   text-align: start;
+}
+.discripion> div>div{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    column-gap: 4%;
+ 
+}
+.aboutmyself>div>p{
+    text-align: start;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.aboutmyself>div>p>span{
+    color: rgb(0, 0, 0,0.6);
+}
+.contactme{
+    text-decoration: none;
+    background-color: transparent;
+    color: #17cf97;
+    font-weight: bold;
+  padding: 10px 30px; 
+ 
+  border: 1px solid #17cf97;
+  border-radius: 20px; 
+  max-width:250px ;
+}
+
+.contactme:hover{
+    border-color: #17cf97;
+    background: #17cf97;
+    color: white;
+
+}
+@media screen and (max-width:769px) {
+    .Title h1{
+        font-size:500%;
+    }
+    .discripion{  display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .discripion>  div{ 
+        align-items: center;
+        
+    }
+    .myservice{
+       
+        display: grid;
+        grid-template-columns: 100%;}
+  
+}
+@media screen and (max-width:500px) {
+
+    .discripion> div>div{
+        display: grid;
+        grid-template-columns: 100%;
+        column-gap: 0%;  
+        margin-left: 20px;
+    }   
+    .contactme{
+        font-size: 16px;
+    }
+    
+}

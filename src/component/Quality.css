@@ -1,0 +1,68 @@
+.eduANdexpContainer{
+    position: relative;
+    display: flex;
+    padding: 20px;
+    width: calc(100% - 40px);
+    justify-content: space-around;
+    text-align: start;
+ 
+}
+.eduANdexpContainer>div{
+    width: 40%;
+
+}
+
+.myservice >div{
+    margin-bottom: 30px;
+}
+.eduANdexpContainer>div>div{
+   display: flex;
+   margin-top: 10px;
+}
+.lines{
+
+    position: relative;
+    width: auto;
+    left: 5px;
+   min-height: 100px;
+    border-left: .5px solid;
+    margin-right: 20px;
+    color:#17cf97 ;
+}
+.lines i{
+    position: relative;
+    top: 6px;
+    transform: translateX(-50%);
+}
+.discribeStatus{
+    position: relative;
+    top: 6px;
+}
+.discribeStatus h4,h5, p{
+ margin-bottom: 10px;
+}
+.discribeStatus h5 {
+  color: rgb(0, 0, 0,0.5);
+  font-size: medium;
+}
+.discribeStatus h5 span{
+    color: rgb(0, 0, 0,0.3);
+    font-size: small;
+}
+.discribeStatus p{
+    
+    font-size: 16px;
+    color: rgb(0, 0, 0,0.7);
+   }
+@media screen and (max-width:769px){
+    .eduANdexpContainer{
+       
+        display: flex;
+       flex-direction: column;
+       
+    }
+    .eduANdexpContainer>div{
+        width: 90%;
+    margin-bottom: 30px;
+    }
+}

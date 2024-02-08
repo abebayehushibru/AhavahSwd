@@ -1,0 +1,49 @@
+.myservice{
+    position: relative;
+    display: grid;
+    grid-template-columns: 40% 40%;
+
+   
+    justify-content: space-around;
+    width: 80%;
+  
+   left: 10%;
+   
+ 
+}
+.myservice >div{
+
+    display: flex;
+    flex-direction: column;
+}
+.myservice >div >div{
+    display: flex;;
+    padding-left: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.myservice >div >div>i{
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color:#17cf97 ;
+   font-size: 40px;
+    color: #ffffff;
+    margin-right: 30px;
+}
+.myservice >div >p{
+    text-align: start;
+    width: 100%;
+    padding-left: 10px;
+    color: rgb(0, 0, 0,0.6);
+}
+@media screen and (max-width:769px) {
+   
+    .myservice{
+        display: grid;
+        grid-template-columns: 100%;}
+  
+}
