@@ -29,7 +29,7 @@ function Quality(props) {
                     <h4>
                     DEGREE in SWE
                     </h4>
-                    <h5>Mekelle University <span> | 2019-now</span></h5>
+                    <h5>Arba-Minch University <span> | 2019-now</span></h5>
                     <p>  BSC  SOTWARE ENGINEERING 2020 - NOW</p>
                     <p>Studied a programming languages, data structures, algorithms, networking and other relevant courses .<br></br><br></br>
 Gained experience in developing web applications and mobile apps using a variety of technologies.</p>
