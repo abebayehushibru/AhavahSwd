@@ -3,6 +3,8 @@ import "./portfolio.css";
 import Pimage from "../images/abc.png";
 import Pimage2 from "../images/baranto.jpg";
 import Pimage3 from "../images/family.jpg";
+import emaapp from "../images/emacafeApp.jpg";
+import saronweb from "../images/saronweb.png";
 import {useState} from "react";
 import { useEffect } from "react";
 import AOS from "aos";
@@ -58,6 +60,22 @@ function PORTFOLIO (props){
                 <img src={Pimage3} alt="myimage"></img>
                 <div>
                   <a href="index.html">
+                    <i className="fa fa-external-link"></i> View 
+                  </a>
+                </div>
+              </div>
+              <div className="Items two"  id={showItems!==3 ? "active" :""} data-aos="fade-right">
+                <img src={emaapp} alt="myimage"></img>
+                <div>
+                  <a href="https://expo.dev/accounts/ahavahswd/projects/ema-cafe">
+                    <i className="fa fa-external-link"></i> View 
+                  </a>
+                </div>
+              </div>
+              <div className="Items two"  id={showItems!==2 ? "active" :""} data-aos="fade-left">
+                <img src={saronweb} alt="myimage"></img>
+                <div>
+                  <a href="https://sarondesign.netlify.app/">
                     <i className="fa fa-external-link"></i> View 
                   </a>
                 </div>

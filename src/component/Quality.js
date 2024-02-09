@@ -36,7 +36,7 @@ Gained experience in developing web applications and mobile apps using a variety
                 </div>
                 </div>
                 
-            </div>
+            </div> 
             <div>
                 <h2>Experience
 
