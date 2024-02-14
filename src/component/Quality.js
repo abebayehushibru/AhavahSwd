@@ -51,7 +51,7 @@ Gained experience in developing web applications and mobile apps using a variety
                     </h4>
                     <h5><span> | 2019-Now</span></h5>
                     <p>
-                    Developed and maintained more than 5 websites , web applications and mobile apps variety of technologies..
+                    Developed and maintained more than 10 websites , web applications and mobile apps variety of technologies..
 
 <br></br>
 <br></br>
