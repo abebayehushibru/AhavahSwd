@@ -20,7 +20,7 @@ function About(props) {
             <div>
               <h3>Web Developer and App Developer</h3>
               <p>
-              Hi, I'm Abebayehu Shibru, a website developer based in Dilla. With over two years of experience in the industry, I have developed lots of projects. My expertise includes web development and application development in many different stacks. Beside that I am familiar with the recent technologies and frameworks.
+              Hi, I'm Abebayehu Shibru, a website developer based in Dilla. With over 3years years of experience in the industry, I have developed lots of projects. My expertise includes web development and application development in many different stacks. Beside that I am familiar with the recent technologies and frameworks.
               </p>
 
               <div className="aboutmyself">
