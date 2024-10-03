@@ -12,6 +12,7 @@ import  "aos/dist/aos.css";
 
 function PORTFOLIO (props){
  const [showItems,setShowItems]=useState (1)
+
  const handclicked =(e) =>{
   
     setShowItems(e);
@@ -43,7 +44,7 @@ function PORTFOLIO (props){
               <div className="Items" id={showItems!==2 ? "active" :""} data-aos="fade-left">
                 <img src={Pimage} alt="myimage"></img>
                 <div>
-                  <a href="http://alenbezacharity.epizy.com/">
+                  <a href="http://alenbezacharity.netlify.app/">
                     <i className="fa fa-external-link"></i> View
                   </a>
                 </div>
